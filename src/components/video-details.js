@@ -9,8 +9,8 @@ const VideoDetails = ({video}) => {
 
 	return (
 		<div className='video-detail col-md-8'>
-			<div className='embed-reponsive embed-responsive-16by9'>
-				<iframe className='embed-reponsive-item' src={url}> </iframe>
+			<div className='embed-reponsive embed-responsive-4by3'>
+				<iframe className='embed-reponsive-item' width="560" height="315" src={url} allowFullScreen=""> </iframe>
 			</div>
 			<div className='details'>
 				<div>{video.snippet.title}</div>
